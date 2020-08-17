@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Movie Popular</string>
+    <string name="deskripsi_movie">Deskripsi Movie</string>
+    <string name="ini_judul_movie">INI JUDUL MOVIE</string>
+</resources>

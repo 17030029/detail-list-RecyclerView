@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/layoutMovie"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="5dp"
+    app:cardUseCompatPadding="true">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimaryDark"
+        >
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/imgMovie"
+        android:layout_width="125dp"
+        android:layout_height="170dp"
+        android:src="@color/colorAccent"/>
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_toRightOf="@id/imgMovie"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:textSize="18dp"
+        android:textColor="#000"
+        android:text="@string/ini_judul_movie"/>
+
+    <TextView
+        android:id="@+id/tvDeskripsi"
+        android:layout_toRightOf="@+id/imgMovie"
+        android:layout_below="@id/tvTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
+        android:maxLines="3"
+        android:text="@string/deskripsi_movie"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>
