@@ -1,0 +1,1 @@
+"# detail-list-RecyclerView-" 
